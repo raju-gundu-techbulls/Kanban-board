@@ -5,16 +5,10 @@ import Modal, { ModalHandle } from "./Modal";
 import { SortableContext, useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import {
-  closestCenter,
-  closestCorners,
-  DndContext,
   DragEndEvent,
   DragOverEvent,
-  DragOverlay,
   DragStartEvent,
-  useDroppable,
 } from "@dnd-kit/core";
-import { createPortal } from "react-dom";
 
 interface BoardProps {
   board: boardType;

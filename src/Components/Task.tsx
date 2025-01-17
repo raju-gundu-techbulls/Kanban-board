@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, useRef, useState } from "react";
-import { boardType, taskType } from "../Types/types";
+import { taskType } from "../Types/types";
 import Modal, { ModalHandle } from "./Modal";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
